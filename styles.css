@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    -webkit-text-fill-color: #f7f9fa;
+    -webkit-text-stroke: 2px #012733;
+    text-align: center;
+    margin: 7px;
+    padding: 1px;
+}
+h2{
+    font-size: 30px;
+    font-family: Cambria, Cochin, 'Courier New', Courier, monospace;
+    color: #012733;
+    text-align: justify;
+    margin: 7px;
+    padding: 1px;
+}
+h3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #012029;
+    margin: 7px;
+    padding: 1px;
+}
+p{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #00010a;
+    text-align: justify;
+    margin: 7px;
+    padding: 1px;
+}
+ul{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: disc;
+    margin: 30px;
+    padding: 1px;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-image: linear-gradient(#033747,#012733);
+    ;
+}
+nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li{
+    float: right;
+}
+
+nav li a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: rgb(150, 39, 76);
+    transition: all 0.4s ease 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 75%;
+    margin: auto;
+}
+
+table{
+    border-collapse: collapse;
+    width: 85%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button{
+    width: 200px;
+    padding: 15PX 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #0a0909;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    position: absollute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
